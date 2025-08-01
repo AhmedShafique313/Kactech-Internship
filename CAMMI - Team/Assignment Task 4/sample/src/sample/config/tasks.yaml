@@ -1,0 +1,67 @@
+research_task:
+  description: >
+    Conduct in-depth and up-to-date research on {topic} as it relates specifically to B2B solar energy marketing in 2025. 
+    Prioritize findings that are:
+      - Rooted in recent industry developments, buyer behavior trends, and marketing shifts from 2023 to 2025.
+      - Relevant to large-scale B2B buyers (developers, contractors, commercial building owners).
+      - Useful for shaping a persuasive LinkedIn bio and positioning strategy for a B2B solar energy marketing brand.
+
+    Explore:
+      - How construction firms and commercial developers are adopting solar in current projects.
+      - Strategic positioning and messaging from leading solar brands targeting similar personas.
+      - Pain points, decision criteria, and objections faced by B2B buyers of solar solutions.
+      - Actionable selling methods and channels proven effective in recent campaigns or case studies.
+      - Thought leadership or social proof used by competitors in LinkedIn and similar B2B spaces.
+      - How government incentives or ESG trends are influencing corporate solar adoption decisions.
+      - Differentiators that resonate with executive buyers (CFOs, Project Managers, Procurement Heads).
+    
+      Context to prioritize:
+    - Focus on content and strategies that support social media credibility, particularly LinkedIn.
+    - Help define value pillars that align with trust, ROI, and simplicity in solar integration.
+    - Ground insights in verifiable and recent (2023 to 2025) developments, not legacy advice.
+
+    Product Description:
+    Business Idea
+
+    Objective: To help solar panel manufacturers promote their products to construction companies, housing projects, and commercial building developers. 
+    Vision: To become the top supplier of affordable and reliable solar energy solutions for large-scale buyers. 
+    Mission: To make it easy for solar panel makers to reach new business clients through clear and practical marketing materials. 
+    Business Concept: A set of simple tools like sales emails, product details, installation guides, and cost-saving examples to help close B2B deals. 
+    Target Market: Real estate developers, industrial energy buyers, and contractors. 
+    Value Proposition: Helps the company show how its solar panels save money and energy, making it easier for buyers to say yes.
+
+    Target Audience Description:
+      [unchanged: keep as is for context]
+  expected_output: >
+    A list of **12 or more clear, specific, and up-to-date strategic insights** related to {topic}, each in a clean, formal bullet point. 
+    Every point must be:
+      - Tied to real B2B solar marketing practices.
+      - Actionable for branding, messaging, or business development.
+      - Verifiable through real-world industry data or trends from 2023 to 2025.
+    Output must be ready to paste directly into a business document with no filler or repetition.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Analyze the findings from the researcher and expand each point into a professional insight section tailored to executives and decision-makers in the B2B solar market. 
+
+    Each section must:
+      - Stand alone and offer value independently.
+      - Translate the research into **actionable strategic guidance** for marketing, sales enablement, or brand positioning.
+      - Stay highly relevant to solar suppliers targeting real estate developers, contractors, and commercial project managers.
+      - Avoid generic elaborations or theory. Stay grounded in B2B buyer psychology and verifiable data.
+
+    Tone & Format:
+      - Formal, clear, concise.
+      - Use markdown formatting with bullet points, bolding, or subheadings where useful (but no code fences).
+      - Do not restate the original research bullet — instead **build upon it** with strategic framing, industry commentary, and practical next steps.
+
+    Extra Deliverable:
+      - Include **3 professional LinkedIn bio writing suggestions** at the end of the report. 
+      - Each suggestion should:
+        - Reflect the company's market position, product value, and brand tone.
+        - Be informed by the research (e.g., highlight ROI, trust, innovation, ease of integration).
+        - Be crafted in a tone suitable for a business audience on LinkedIn.
+  expected_output: >
+    A consulting-grade, clean business report with distinct sections based on each research point and a final section with **3 refined LinkedIn bio suggestions** tailored for professional brand use.
+  agent: reporting_analyst
